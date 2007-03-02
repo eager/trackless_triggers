@@ -13,7 +13,7 @@ Add a trigger:
   add_trigger "ai_people",
     :on         => 'people',
     :timing     => 'after',
-    :event      => 'inert',
+    :event      => 'insert',
     :statement  => 'INSERT INTO log (id, timestamp) VALUES (NEW.id, NOW())'
 
 Remove a trigger:
