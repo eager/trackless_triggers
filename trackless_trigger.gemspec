@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/trigger_migrations.rb",
-     "pkg/trackless_trigger-0.0.2.gem",
      "trackless_trigger.gemspec",
      "trackless_trigger.rb"
   ]
