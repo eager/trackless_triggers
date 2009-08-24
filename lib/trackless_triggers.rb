@@ -1,3 +1,5 @@
+require 'active_record'
+
 module ActiveRecord
   class SchemaDumper
     private
@@ -22,7 +24,7 @@ module ActiveRecord
   module ConnectionAdapters
     class TriggerDefinition < Struct.new(:name, :event, :reference_table,
                                          :statement, :timing, :created,
-                                         :sql_mode, :definer
+                                         :sql_mode, :definer, :character_set_client, :collation_connection, :database_collation
                                         )
     end
     class MysqlAdapter < AbstractAdapter

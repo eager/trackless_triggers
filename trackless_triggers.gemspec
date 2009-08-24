@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{trackless_trigger}
+  s.name = %q{trackless_triggers}
   s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
      "README",
      "Rakefile",
      "VERSION",
-     "lib/trigger_migrations.rb",
-     "trackless_trigger.gemspec",
-     "trackless_trigger.rb"
+     "init.rb",
+     "lib/trackless_triggers.rb",
+     "trackless_triggers.gemspec"
   ]
   s.homepage = %q{http://github.com/frolic/trackless-trigger}
   s.rdoc_options = ["--charset=UTF-8"]

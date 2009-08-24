@@ -3,7 +3,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "trackless_trigger"
+    gemspec.name = "trackless_triggers"
     gemspec.summary = "Adds support for MySQL triggers in ActiveRecord"
     gemspec.description = "Adds support for MySQL triggers in ActiveRecord"
     gemspec.email = "christian@perpenduum.com"
