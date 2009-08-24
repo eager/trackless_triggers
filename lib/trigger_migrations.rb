@@ -5,7 +5,7 @@ module ActiveRecord
     def tables(stream)
       trigger_old_tables(stream)
       @connection.tables.sort.each do |tbl|
-        next if tbl == 'schema_info'
+        next if (tbl == 'schema_info' || tbl == 'schema_migrations')
         triggers(tbl, stream)
       end
     end

@@ -19,9 +19,11 @@ Gem::Specification.new do |s|
     "CHANGELOG",
      "MIT-LICENSE",
      "README",
+     "Rakefile",
      "VERSION",
-     "init.rb",
-     "lib/trigger_migrations.rb"
+     "lib/trigger_migrations.rb",
+     "trackless_trigger.gemspec",
+     "trackless_trigger.rb"
   ]
   s.homepage = %q{http://github.com/frolic/trackless-trigger}
   s.rdoc_options = ["--charset=UTF-8"]
