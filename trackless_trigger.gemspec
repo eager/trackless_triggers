@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/trigger_migrations.rb",
      "pkg/trackless_trigger-0.0.3.gem",
+     "pkg/trackless_trigger-0.0.4.gem",
      "trackless_trigger.gemspec",
      "trackless_trigger.rb"
   ]
