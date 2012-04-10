@@ -1,26 +1,6 @@
-= Trigger Happy
+# Trackless Triggers
 
-Add triggers to your active record migrations.
+A fork of [Trigger Happy][1] that packages it as a gem. This allows it to be used in stand-alone scripts, independent of a Rails app.
 
-== INSTALL
 
-  script/plugin install svn://rubyforge.org/var/svn/artriggers/trunk/trigger_happy
-
-== EXAMPLE
-
-Add a trigger:
-
-  add_trigger "ai_people",
-    :on         => 'people',
-    :timing     => 'after',
-    :event      => 'insert',
-    :statement  => 'INSERT INTO log (id, timestamp) VALUES (NEW.id, NOW())'
-
-Remove a trigger:
-
-  drop_trigger 'ai_people'
-
-== LIMITATIONS
-
-Only works with mysql for now.
-
+[1]: http://tenderlovemaking.com/2007/03/01/trigger-happy/
